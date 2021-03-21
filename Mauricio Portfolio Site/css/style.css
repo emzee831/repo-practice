@@ -1,0 +1,278 @@
+/* top navigation background color ofnavigation */
+
+.topnav {
+    background-color: rgb(158, 156, 172);
+    position: fixed;
+    right: 50px;
+    width: 150px;
+}
+
+
+/* navigation bar style */
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: solid;
+    font-size: auto;
+    border: none;
+}
+
+
+/* hover over color for nav */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(106, 94, 94);
+}
+
+
+/* color of active/current link */
+
+.topnav a.active {
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+
+
+/* dividers */
+
+#homepagewelcome {
+    background-color: #eeebeb;
+    width: 150px;
+    height: 75px;
+    margin: 25px auto;
+    padding: 2px;
+}
+
+#linkinid {
+    background-color: #eeebeb;
+    width: 125px;
+    height: 50px;
+    margin: 12px auto;
+    padding: 2px;
+}
+
+#mypic {
+    background-color: rgb(9, 10, 10);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+}
+
+#homeparaaboutme {
+    background-color: rgb(218, 218, 218);
+    margin: 1px;
+    border: none;
+}
+
+#homepagepic2 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    background-color: rgb(226, 223, 223);
+    width: 500px;
+    size: 100px;
+}
+
+#formdiv {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: white;
+    width: 15%;
+}
+
+#aboutmepara {
+    background-color: rgb(9, 10, 10);
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+}
+
+#fmdiv {
+    background-color: rgb(116, 116, 116);
+    margin-left: 25%;
+}
+
+#bracketdiv {
+    background-color: rgb(191, 194, 192);
+    position: fixed;
+    width: 500px;
+    height: 100px;
+}
+
+
+/* overall dividers settings */
+
+#homepagewelcome,
+#linkinid,
+#mypic,
+#homeparaaboutme,
+#aboutmepara,
+#fmdiv,
+#bracketdiv {
+    border: thin;
+    position: static;
+    max-width: 500px;
+    max-height: 400px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#formdiv {
+    border: solid;
+    position: static;
+    max-width: 500px;
+    max-height: 550px;
+    margin: 0 auto;
+    color: rgb(255, 250, 250);
+}
+
+
+/* main page color */
+
+#mainbody {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 120px;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#homepagepara {
+    font-family: cursive;
+    font-size: medium;
+}
+
+h3 {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h4 {
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+h5 {
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 2px 5px;
+}
+
+a {
+    color: rgb(24, 3, 49);
+    text-align: center;
+}
+
+img {
+    image-resolution: 500;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+iframe {
+    image-resolution: 100;
+    object-fit: scale-down;
+    height: 250px;
+    width: 250px;
+}
+
+#MZlist {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    padding: 10px;
+    background-color: rgb(89, 94, 90);
+    font-style: italic;
+    border-style: solid;
+    font-weight: 100px;
+    text-align: center;
+    border: thin;
+    height: 300px;
+    width: 200px;
+}
+
+#formfillout {
+    text-align: auto;
+    border: hidden;
+    border-style: hidden;
+}
+
+.linkclass {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    width: 50px;
+    height: 100px;
+}
+
+input:hover {
+    color: black;
+    background-color: rgb(171, 23, 23);
+    padding: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table {
+    height: 40px;
+    width: 100px;
+    border: thin;
+}
+
+input[type="text"] {
+    width: auto;
+    box-sizing: border-box;
+    box-shadow: transparent;
+}
+
+.box {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 2em;
+}
+
+.formclass {
+    background-color: rgb(0, 0, 0);
+    left: 200px;
+    width: 200px;
+    right: auto;
+}
